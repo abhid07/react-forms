@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: teal;
+}
+
+.main-container{
+    display: flex;
+    margin: 100px 400px;
+    width: 50%;
+    background-color: white;
+    flex-direction: column;
+}
+.header-container{
+ display:flex;
+}
+.header-container div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 100%;
+}
+.header-container div button{
+    width: 50px;
+    border-radius:90%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color:lightgray;
+}
+/* Benificiary */
+.beneficiary-buttons{
+    margin-top: 30px;
+    width: 100%;
+}
+.beneficiary-buttons button
+{
+    width: 350px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    border: none;
+}
+.active{
+    background-color: royalblue;
+}
+.link2{
+    color: black;
+}
+.personal-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-form input ,select{
+    width: 600px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 2px solid purple;
+}
+.personal-form p{
+    margin-right: 559px;
+    margin-top: 20px;
+}
+.personal-form span{
+    margin-left: 5px;
+    border-bottom: 2px solid purple;
+}
+.business-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-buttons button{
+    padding: 10px;
+    outline: none;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.previousbtn{
+    background-color: white;
+    color: royalblue;
+    border:1px solid royalblue ;
+}
+.nextbtn{
+    background-color: royalblue;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+}
+.submitbtn{
+    border: none;
+    outline: none;
+    background-color: green;
+    padding: 10px;
+}
+.link{
+    color: white;
+}
+.personalData{
+    margin-top: 10px;
+    border: 2px solid royalblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.personalData p{
+    margin: 10px;
+}
+.personalData h1{
+    text-align: center;
+}
